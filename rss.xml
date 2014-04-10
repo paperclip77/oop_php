@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<rss version="0.91">
+    <channel>
+        <title>About Classical Music</title>
+        <link>http://classicalmusic.about.com/</link>
+        <description>Get the latest headlines from the About.com Classical Music Guide Site.</description>
+        <language>en-us</language>
+        <pubDate>Sun, 19 March 2006 21:25:29</pubDate>
+        <image>
+            <title>About.com</title>
+            <url>http://z.about.com/lg/rss.gif</url>
+            <link>http://about.com/</link>
+            <width>88</width>
+            <height>31</height>
+        </image>
+        
+        <item>
+            <title>And the Oscar goes to...</title>
+            <link>http://classicalmusic.about.com/b/a/249503.htm</link>
+            <description>Find out who won last year's Oscars</description>
+        </item>
+        
+    </channel>
+
+</rss>
