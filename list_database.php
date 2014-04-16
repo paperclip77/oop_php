@@ -46,8 +46,13 @@
 
 <body>
 <?php
-require('MySQLConnect.php');
-require('PageNavigator.php');
+//require('MySQLConnect.php');
+//require('PageNavigator.php');
+
+function __autoload($class){
+    require $class.'.php';
+}
+
 define("OFFSET", "offset");
 
 $offset = @$_GET[OFFSET];
@@ -100,6 +105,10 @@ if($numpages > 1){
 }
 
 ?>
+
+<hr />
+
+
 
 </body>
 </html>
