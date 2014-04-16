@@ -55,6 +55,8 @@ function __autoload($class){
 
 /* Ok lets see if this comment is picked up by git */
 
+/* And this is a second file update */
+
 define("OFFSET", "offset");
 
 $offset = @$_GET[OFFSET];
