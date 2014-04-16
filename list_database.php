@@ -53,6 +53,8 @@ function __autoload($class){
     require $class.'.php';
 }
 
+/* Ok lets see if this comment is picked up by git */
+
 define("OFFSET", "offset");
 
 $offset = @$_GET[OFFSET];
